@@ -14,10 +14,8 @@
 /MyProject
 │── CMakeLists.txt         # 顶层 CMake 入口
 │── cmake
-│   ├── toolchains         # 编译工具链文件（交叉编译）
-│   ├── modules            # 自定义 CMake 模块
+│   ├── linux_x64.cmake         # 编译工具链文件（交叉编译）
 │   └── options.cmake      # 选项控制文件
-│── external               # 外部依赖（可选，支持 FetchContent 或 Git Submodules）
 │── include                # 头文件
 │   ├── myproject          # 主要库的头文件
 │   └── module_a           # 其他模块的头文件
